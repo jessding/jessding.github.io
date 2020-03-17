@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700|Raleway:600,800&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href= "{{ '/assets/css/main.css' | relative_url }}">
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="bio">
+          <div class="profpic">
+            <img src="{{ '/assets/profpic.JPG' | relative_url }}" alt="jessding">
+          </div>
+          <div class="text">
+            <h1>JESSICA DING</h1>
+            <h6>I'm a boba-fueled freshman at MIT double-majoring in {electrical engineering + computer science} and {math}.</h6>
+          </div>
+        </div>
+        <div class="pagelinks {{ page.coloringtitle }}">
+          <div class="pagelink" id="projects">
+          <h2><a href="/">projects</a></h2>
+          </div>
+          <div class="pagelink" id="classes">
+            <h2><a href="/classes/">classes/work</a></h2>
+          </div>
+          <div class="pagelink" id="currently">
+            <h2><a href="/currently/">currently</a></h2>
+          </div>
+          <div class="pagelink" id="about">
+            <h2><a href="/about/">about</a></h2>
+          </div>
+        </div> 
+      </div>
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
+  </body>
+</html>

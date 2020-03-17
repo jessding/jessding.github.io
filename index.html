@@ -1,0 +1,15 @@
+---
+layout: default
+title: "jessding | projects"
+coloringtitle: "projects"
+---
+
+
+{% for proj in site.projs %}
+    <div>
+    <p>{{ proj.title }}</p>
+    <p>{{ proj.status }}</p>
+    <p>{{ proj.descr }}</p>
+    </div>
+{% endfor %}
+
