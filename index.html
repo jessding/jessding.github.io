@@ -1,15 +1,18 @@
 ---
 layout: default
-title: "jessding | projects"
-coloringtitle: "projects"
+title: "projects"
 ---
 
+<div class="projcontainer">
+    {% for proj in site.projects %}
+        <a href="{{ proj.permalink }}">
+            <div class="projbox" style="background-image: url('{{ proj.img | relative_url }}');">
+                <p>{{ proj.title }}</p>
+                <p>{{ proj.status }}</p>
+                <p>{{ proj.descr }}</p>
+            </div>  
+        </a>
+    {% endfor %}
+</div>
 
-{% for proj in site.projs %}
-    <div>
-    <p>{{ proj.title }}</p>
-    <p>{{ proj.status }}</p>
-    <p>{{ proj.descr }}</p>
-    </div>
-{% endfor %}
 
