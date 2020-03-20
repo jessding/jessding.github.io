@@ -25,11 +25,11 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 collections:
   projects:
-    order:
-      - calpal.html
-      - recap.html
-      - stressthing.html
-      - jetblue.html
+    # order:
+    #   - calpal.html
+    #   - recap.html
+    #   - stressthing.html
+    #   - jetblue.html
     output: true
 
 #  You can edit this

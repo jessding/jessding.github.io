@@ -118,7 +118,9 @@ img {
     text-align: center;
     font-size: 24px;
 }
-
+.icon:hover {
+    color: #edc1c7;
+}
 .pagelinks {
     display: flex;
     flex-direction: column;
