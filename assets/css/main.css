@@ -186,12 +186,12 @@ img {
     flex-direction: column;
     margin: 5px;
     padding: 10px;
-    border: 2px solid #383428;
+    /* border: 2px solid #383428; */
     border-radius: 20px;
     min-width: 100px;
     width: 30vw;
     height: 200px; 
-    background: cover;
+    background-size: cover;
 }
 
 
