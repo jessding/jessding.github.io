@@ -264,6 +264,7 @@ img {
 
     .projcontainer {
         flex-direction: column;
+        width: 100%;
     }
     .projbox {
         width: auto;
