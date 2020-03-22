@@ -7,12 +7,10 @@ title: "projects"
     {% for proj in site.projects %}
         <a href="{{ proj.permalink }}">
             <div class="projbox" style="background-image: url('{{ proj.img | relative_url }}');">
-                <!-- <div class="projfilter"> -->
-                    <div class="projtext">
-                        <h4>{{ proj.title }}</h4>
-                        <h3>{{ proj.descr }}</h3>
-                    </div>
-                <!-- </div>   -->
+                <div class="projtext">
+                    <h4>{{ proj.title }}</h4>
+                    <h3>{{ proj.descr }}</h3>
+                </div>
             </div>
         </a>
     {% endfor %}
