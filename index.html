@@ -6,11 +6,14 @@ title: "projects"
 <div class="projcontainer">
     {% for proj in site.projects %}
         <a href="{{ proj.permalink }}">
-            <div class="projbox" style="background-image: linear-gradient(to bottom, rgba(245, 246, 246, 0.15), rgba(125, 125, 125, 0.20)), url('{{ proj.img | relative_url }}');">
-                <p>{{ proj.title }}</p>
-                <!-- <p>{{ proj.status }}</p> -->
-                <p>{{ proj.descr }}</p>
-            </div>  
+            <div class="projbox" style="background-image: url('{{ proj.img | relative_url }}');">
+                <!-- <div class="projfilter"> -->
+                    <div class="projtext">
+                        <h4>{{ proj.title }}</h4>
+                        <h3>{{ proj.descr }}</h3>
+                    </div>
+                <!-- </div>   -->
+            </div>
         </a>
     {% endfor %}
 </div>

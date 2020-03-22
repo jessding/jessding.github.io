@@ -25,8 +25,21 @@ h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
 }
-h3,
-h4,
+h3 {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    font-weight: 5;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    /* text-shadow: 0px 0px 5px #fff,0px 0px 10px #fff; */
+}
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+}
 h5,
 h6 {
     padding: 0;
@@ -184,15 +197,36 @@ img {
 .projbox {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     margin: 5px;
     padding: 10px;
-    /* border: 2px solid #383428; */
+    border: 2px solid #383428;
     border-radius: 20px;
     min-width: 100px;
     width: 30vw;
     height: 200px; 
     background-size: cover;
 }
+
+/* .projfilter {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+} */
+
+.projtext {
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.projbox:hover > .projtext{
+    transform: translate(0,-30px);
+}
+
+/* .projbox:hover {
+    transition-property: background;
+    transition-duration: 1s;
+    background-image: linear-gradient(to bottom, rgba(125, 125, 125, 0.25), rgba(125, 125, 125, 0.25));
+} */
 
 
 @media only screen and (max-width: 644px) {
