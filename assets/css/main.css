@@ -267,10 +267,12 @@ img {
     .projcontainer {
         flex-direction: column;
         flex-wrap: wrap;
-        width: auto;
+        width: 100%;
+        max-width: auto;
     }
     .projbox {
         width: auto;
+        max-width: 100%;
     }
 }
 
