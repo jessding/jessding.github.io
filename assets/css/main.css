@@ -32,7 +32,6 @@ h3 {
     margin: 0;
     padding: 0;
     font-style: italic;
-    /* text-shadow: 0px 0px 5px #fff,0px 0px 10px #fff; */
 }
 h4 {
     font-family: 'Raleway', sans-serif;
@@ -141,26 +140,11 @@ img {
     align-content: flex-end;
     margin-right: 20px;
     justify-content: flex-end;
+    align-self: flex-end;
 }
 
 .pagelink {
     margin-bottom: -20px;
-}
-
-.projects {
-    align-self: flex-end;
-}
-.classes {
-    align-self: flex-end;
-}
-.currently {
-    align-self: flex-end;
-}
-.fun {
-    align-self: flex-end;
-}
-.about {
-    align-self: flex-end;
 }
 
 .projects #projects {
@@ -265,11 +249,7 @@ img {
     }
     .icon {
         font-size: 18px;
-        /* color: blue; */
     }
-    /* .fab .fa-github{
-        color: blue !important;
-    } */
     .pagelinks {
         flex-direction: row;
         flex-flow: row wrap;
@@ -286,6 +266,7 @@ img {
 
     .projcontainer {
         flex-direction: column;
+        flex-wrap: wrap;
         width: auto;
     }
     .projbox {
