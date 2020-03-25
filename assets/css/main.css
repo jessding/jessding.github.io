@@ -90,7 +90,6 @@ img {
     align-items: center;
     flex-basis: 25%;
     min-width: 300px;
-    overflow-y: scroll;
 }
 
 .profpic {
@@ -231,6 +230,7 @@ img {
     .sidebar {
         flex-direction: column;
         flex-basis: 25%;
+        overflow-y: scroll;
     }
     .bio {
         flex-direction: row;
