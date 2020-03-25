@@ -274,7 +274,7 @@ img {
         margin-bottom: 0px;
     }
     .content {
-        width: auto;
+        width: 100%;
         margin-left: 10px;
         margin-right: 10px;
         flex-basis: 75%;
