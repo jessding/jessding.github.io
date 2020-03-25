@@ -190,6 +190,7 @@ img {
     width: 30vw;
     height: 200px; 
     background-size: cover;
+    background-position: center center;
 }
 
 .projtext {
@@ -258,7 +259,7 @@ img {
         width: 100%;
     }
     .content {
-        width: 100%;
+        width: auto;
         margin-left: 10px;
         margin-right: 10px;
         flex-basis: 75%;
@@ -267,7 +268,7 @@ img {
     .projcontainer {
         flex-direction: column;
         flex-wrap: wrap;
-        width: 100%;
+        width: auto;
         max-width: auto;
     }
     .projbox {
