@@ -251,6 +251,9 @@ img {
     .icon {
         font-size: 18px;
     }
+    .pagelink {
+        margin-bottom: 0px;
+    }
     .pagelinks {
         flex-direction: row;
         flex-flow: row wrap;
@@ -260,7 +263,7 @@ img {
         margin-bottom: 0px;
     }
     .content {
-        width: screen;
+        width: auto;
         margin-left: 10px;
         margin-right: 10px;
         flex-basis: 75%;
@@ -270,7 +273,7 @@ img {
         flex-direction: column;
         flex-wrap: wrap;
         width: auto;
-        max-width: auto;
+        max-width: 644px;
     }
     .projbox {
         width: auto;
