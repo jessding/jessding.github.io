@@ -236,6 +236,7 @@ img {
     }
     .container {
         flex-direction: column;
+        height: auto;
     }
     .sidebar {
         flex-direction: column;
@@ -274,7 +275,8 @@ img {
         margin-bottom: 0px;
     }
     .content {
-        width: 100%;
+        width: auto;
+        height: auto;
         margin-left: 10px;
         margin-right: 10px;
         flex-basis: 75%;
@@ -283,12 +285,13 @@ img {
     .projcontainer {
         flex-direction: column;
         flex-wrap: wrap;
-        width: auto;
-        max-width: 644px;
+        width: 100%;
+        /* max-width: 644px; */
     }
     .projbox {
         width: auto;
-        max-width: 100%;
+        min-width: 300px;
+        /* max-width: 100%; */
     }
 }
 
