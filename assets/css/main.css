@@ -90,6 +90,7 @@ img {
     align-items: center;
     flex-basis: 25%;
     min-width: 300px;
+    overflow-y: scroll;
 }
 
 .profpic {
