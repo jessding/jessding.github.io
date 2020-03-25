@@ -3,6 +3,9 @@ layout: default
 title: "projects"
 ---
 
+<div class="title">
+    <h2>highlights</h2>
+</div>
 <div class="projcontainer">
     {% for proj in site.projects %}
         <a href="{{ proj.permalink }}">
@@ -15,5 +18,21 @@ title: "projects"
         </a>
     {% endfor %}
 </div>
+<div class="title">
+    <h2>works in progress</h2>
+</div>
+<div class="projcontainer">
+    {% for proj in site.wips %}
+        <a href="{{ proj.permalink }}">
+            <div class="projbox" style="background-image: url('{{ proj.img | relative_url }}');">
+                <div class="projtext">
+                    <h4>{{ proj.title }}</h4>
+                    <h3>{{ proj.descr }}</h3>
+                </div>
+            </div>
+        </a>
+    {% endfor %}
+</div>
+
 
 

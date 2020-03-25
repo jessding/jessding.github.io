@@ -20,7 +20,10 @@
       <div class="content">
         <h1>{{ page.title }}</h1>
         <h2>{{ page.descr }}</h2>
-        
+        <div class="mainimg">
+          <img src="{{ page.mainimg | relative_url }}" alt="project pic">
+        </div>
+
         {{ content }}
       </div>
     </div>
