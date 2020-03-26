@@ -57,6 +57,10 @@ a {
     text-decoration: none;
 }
 
+/* a:link {
+    font-style: underline;
+} */
+
 img {
     max-width: 100%;
     max-height: 100%;
