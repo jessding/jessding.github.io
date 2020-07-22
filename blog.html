@@ -1,0 +1,16 @@
+---
+layout: default
+title: "blog"
+permalink: /blog/
+---
+<h2>a casual place for my thoughts and experiences</h2>
+<p>this is a new thing I'm experimenting with! I'll try to write a post once a week.</p> </br>
+
+{% for post in site.posts %}
+  <a href="{{ post.permalink }}">
+      <div class="postbox">
+          <h2 style="margin-bottom: 10px; margin-top: 10px;">{{ post.title }}</h2>
+          <h3 style="margin-bottom: 10px">{{ post.blurb }}</h3>
+      </div>
+  </a>
+{% endfor %}

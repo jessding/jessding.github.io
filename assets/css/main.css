@@ -1,4 +1,6 @@
-html,
+html {
+    height: 100%;
+}
 
 .page {
     display: flex;
@@ -57,6 +59,10 @@ a {
     text-decoration: none;
 }
 
+.link {
+    text-decoration: underline;
+}
+
 /* a:link {
     font-style: underline;
 } */
@@ -74,8 +80,8 @@ img {
 .video-responsive iframe{
     left: 0;
     top: 0;
-    height: 100%;
-    width: 100%;
+    height: 70%;
+    width: 70%;
     position: absolute;
 }
 .container {
@@ -118,12 +124,17 @@ img {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
-    max-width: 70%;
+    width: 80%;
+    max-width: 80%;
+}
+
+.name {
+    margin-top: 15px; 
+    margin-bottom: -10px
 }
 
 .socials {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: -10px;
     justify-self: center;
     display: flex;
@@ -164,16 +175,17 @@ img {
 .fun #fun {
     color: #a8cdf1;
 }
-.about #about {
+.blog #blog {
     color: #b6ade7;
 }
 .content {
     display: flex;
     flex-direction: column;
     flex-basis: 75%;
-    height: 100vh;
+    height: 94%;
     overflow-y: scroll;
-    margin-bottom: 20px;
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
 
 .projcontainer {
@@ -216,6 +228,19 @@ img {
     transform: translate(0,-30px);
 }
 
+.postbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #383428;
+    border-radius: 20px;
+    min-width: 100px;
+    width: 30vw;
+    height: auto; 
+}
+
 @media only screen and (max-width: 737px) {
     img {
         width: 100%;
@@ -229,14 +254,21 @@ img {
         font-size: 15px;
     }
     h6 {
-        font-size: 14px;
+        font-size: 12px;
     }
     p {
+        font-size: 14px;
+    }
+    ul {
         font-size: 14px;
     }
     iframe {
         width: auto;
         height: auto;
+    }
+    .video-responsive iframe{
+        height: 100%;
+        width: 100%;
     }
     .container {
         flex-direction: column;
@@ -251,8 +283,10 @@ img {
         flex-direction: row;
     }
     .profpic {
-        margin-right: 20px; 
-        width: 20vw;
+        margin-right: 10px; 
+        margin-left: 5px;
+        margin-top: 10px;
+        width: 17vw;
         height: auto; 
         min-width: 125px; 
     }
@@ -260,8 +294,15 @@ img {
         flex: 80% ;
         justify-content: space-evenly;
     }
+
+    .name {
+        margin-bottom: -15px;
+        /* margin-top: 10px; */
+    }
+
     .socials {
         margin-bottom: 0;
+        margin-top: 5px;
         justify-content: space-evenly;
     }
     .icon {

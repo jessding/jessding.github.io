@@ -1,0 +1,138 @@
+body {
+  height: auto;
+}
+
+.container {
+  /* height: 100%; */
+  width: auto;
+  display: flex;
+  /* overflow: hidden; */
+  flex-direction: column;
+  justify-items: center;
+}
+
+i {
+  width: auto;
+  /* justify-self: flex-start; */
+  text-align: left;
+  font-size: 24px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 0;
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-weight: 5;
+  font-size: 16px;
+}
+
+h4 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+p {
+  margin-top: 10px; 
+  font-size: 14px;
+}
+
+b {
+  font-size: 14px;
+}
+
+sup {
+  font-size: 12px;
+}
+
+/* #text {
+  font-size: 14px;
+} */
+
+.back {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+
+.back:hover {
+  color: #b6ade7;
+}
+
+img {
+  margin: 10px;
+}
+
+.mainimg {
+  width: 80%;
+  margin: 10px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.postcontent {
+  margin: 20px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postcontent a {
+  text-decoration: underline;
+}
+
+figure {
+  margin: 15px 0px 15px 0px;
+}
+
+.imgrow {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-content: space-around;
+  width: 100%;
+}
+
+.two {
+  width: 45%;
+}
+
+caption {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 12px;
+}
+
+
+@media only screen and (max-width: 737px) {
+  .postcontent {
+      width: 95%;
+  }
+
+  .imgrow {
+    flex-direction: column;
+  }
+
+  .two {
+    width: 100%
+  }
+}
