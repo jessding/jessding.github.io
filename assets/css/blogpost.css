@@ -111,6 +111,10 @@ figure {
   width: 45%;
 }
 
+.one {
+  width: 80%;
+}
+
 caption {
   display: flex;
   text-align: center;
@@ -122,6 +126,12 @@ figcaption {
   font-size: 12px;
 }
 
+/* .instaembed {
+  align-items: center;
+  align-self: center;
+  height: auto;
+} */
+
 
 @media only screen and (max-width: 737px) {
   .postcontent {
@@ -132,7 +142,15 @@ figcaption {
     flex-direction: column;
   }
 
-  .two {
+  .one, .two {
     width: auto;
+  }
+  
+  /* .two {
+    width: auto;
+  } */
+
+  .instagram-media {
+    height: auto;
   }
 }
