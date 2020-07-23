@@ -102,7 +102,7 @@ figure {
 .imgrow {
   display: flex;
   flex-direction: row;
-  justify-items: center;
+  justify-content: center;
   align-content: space-around;
   width: 100%;
 }
@@ -133,6 +133,6 @@ figcaption {
   }
 
   .two {
-    width: 100%
+    width: auto;
   }
 }

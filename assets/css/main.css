@@ -293,6 +293,7 @@ img {
     .text {
         flex: 80% ;
         justify-content: space-evenly;
+        margin-right: 5px;
     }
 
     .name {
