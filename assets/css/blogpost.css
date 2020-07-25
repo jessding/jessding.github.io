@@ -115,6 +115,10 @@ figure {
   width: 80%;
 }
 
+.oneportrait {
+  width: 40%;
+}
+
 caption {
   display: flex;
   text-align: center;
@@ -125,6 +129,11 @@ figcaption {
   text-align: center;
   font-size: 12px;
 }
+
+/* .footnotes {
+  align-self: center;
+  text-align: left;
+} */
 
 /* .instaembed {
   align-items: center;
@@ -142,7 +151,7 @@ figcaption {
     flex-direction: column;
   }
 
-  .one, .two {
+  .one, .two, .oneportrait {
     width: auto;
   }
   

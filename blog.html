@@ -4,13 +4,17 @@ title: "blog"
 permalink: /blog/
 ---
 <h2>a casual place for my thoughts and experiences</h2>
-<p>this is a new thing I'm experimenting with! I'll try to write a post once a week.</p> </br>
+<p>this is a new thing I'm experimenting with! I'll try to write a post once a week, and I hope to be both introspective and retrospective here, as well as reflective on other thoughts/problems I think about.</p> </br>
 
-{% for post in site.posts %}
-  <a href="{{ post.permalink }}">
-      <div class="postbox">
-          <h2 style="margin-bottom: 10px; margin-top: 10px;">{{ post.title }}</h2>
-          <h3 style="margin-bottom: 10px">{{ post.blurb }}</h3>
-      </div>
-  </a>
-{% endfor %}
+<div class="projcontainer">
+  {% for post in site.posts %}
+      <a href="{{ post.permalink }}">
+          <div class="projbox" style="background-image: url('{{ post.mainimg | relative_url }}'); background-position: center">
+              <div class="projtext" style="text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;">
+                  <h4>{{ post.title }}</h4>
+                  <h3>{{ post.blurb }}</h3>
+              </div>
+          </div>
+      </a>
+  {% endfor %}
+</div>
