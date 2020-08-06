@@ -15,7 +15,7 @@ i {
   width: auto;
   /* justify-self: flex-start; */
   text-align: left;
-  font-size: 24px;
+  font-size: 2rem;
 }
 
 h1 {
@@ -31,26 +31,26 @@ h2 {
   font-family: 'Lora', serif;
   font-style: italic;
   font-weight: 5;
-  font-size: 16px;
+  font-size: 1.33rem;
 }
 
 h4 {
   margin-top: 15px;
   margin-bottom: 5px;
-  font-size: 24px;
+  font-size: 2rem;
 }
 
 p, li {
   margin-top: 10px; 
-  font-size: 14px;
+  font-size: 1.25rem;
 }
 
 b {
-  font-size: 14px;
+  font-size: 1.25rem;
 }
 
 sup {
-  font-size: 12px;
+  font-size: 1rem;
 }
 
 /* #text {
@@ -127,7 +127,7 @@ caption {
 
 figcaption {
   text-align: center;
-  font-size: 12px;
+  font-size: 1rem;
 }
 
 /* .footnotes {

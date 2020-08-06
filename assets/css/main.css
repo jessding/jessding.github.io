@@ -14,22 +14,22 @@ body {
     padding: 0;
     font-family: 'Lora', serif;
     font-weight: 20;
-    font-size: 16px;
+    font-size: 1.33rem;
 }
 h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 30px;
+    font-size: 2.5rem;
     text-align: center;
     margin-top: 0;
     padding: 0;
 }
 h2 {
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 1.67rem;
 }
 h3 {
     font-family: 'Lora', serif;
-    font-size: 16px;
+    font-size: 1.3rem;
     font-weight: 5;
     margin: 0;
     padding: 0;
@@ -37,7 +37,7 @@ h3 {
 }
 h4 {
     font-family: 'Raleway', sans-serif;
-    font-size: 26px;
+    font-size: 2.16rem;
     margin: 0;
     padding: 0;
 }
@@ -46,7 +46,7 @@ h6 {
     padding: 0;
     margin: 0;
     font-family: 'Lora', serif;
-    font-size: 16px;
+    font-size: 1.33rem;
     font-weight: 20;
 }
 p, li {
@@ -101,6 +101,7 @@ img {
     flex-basis: 25%;
     min-width: 300px;
     height: 100%;
+    overflow-y: scroll;
 }
 
 .profpic {
@@ -144,7 +145,7 @@ img {
 .icon {
     width: 40px;
     text-align: center;
-    font-size: 24px;
+    font-size: 2rem;
 }
 .icon:hover {
     color: #edc1c7;
@@ -248,17 +249,17 @@ img {
         /* max-width: 30px; */
     }
     h1 {
-        font-size: 20px;
+        font-size: 1.67rem;
         text-align: left;
     }
     h2 {
-        font-size: 15px;
+        font-size: 1.25rem;
     }
     h6 {
-        font-size: 14px;
+        font-size: 1.25rem;
     }
     p, li {
-        font-size: 14px;
+        font-size: 1.25rem;
     }
     iframe {
         width: auto;
@@ -305,7 +306,7 @@ img {
         justify-content: space-evenly;
     }
     .icon {
-        font-size: 18px;
+        font-size: 1.5rem;
     }
     .pagelink {
         margin-bottom: 0px;
