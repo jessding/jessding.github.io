@@ -1,0 +1,11 @@
+title: jessding
+description: Personal website
+url: "https://jessding.github.io"
+
+markdown: kramdown
+permalink: /:title/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
