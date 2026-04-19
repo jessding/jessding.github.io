@@ -11,7 +11,7 @@ Along with building trading systems, these days I'm also generally interested in
 - systems (type theory, formal verification, programming languages, ...)
 - spatial forms (dance, knit, ...)
 - existing between analog and digital (shooting 35mm film, building my own tindle and digicam, ...)
-- community building
+- building community
 
 In a previous life I worked on residual transfer learning with transit applications.
 
