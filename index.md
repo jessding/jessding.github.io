@@ -13,6 +13,8 @@ Along with building trading systems, these days I'm also generally interested in
 - existing between analog and digital (shooting 35mm film, building my own tindle and digicam, ...)
 - building community
 
+I care about being a strong technical communicator. I keep a lab notebook [here](https://www.abelianpi.dev/) and have given talks at [CppCon](https://cppcon2026.sched.com/event/2RT7j/incremental-modernization-refactoring-legacy-oop-application-code-using-type-erasure-and-functional-c++) and [C++Now](https://www.youtube.com/watch?v=FOzGlO5XaPE).
+
 In a previous life I worked on residual transfer learning with transit applications.
 
 ---
